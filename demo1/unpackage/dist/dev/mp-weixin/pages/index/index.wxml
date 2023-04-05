@@ -1,0 +1,1 @@
+<view class="home"><view class="out"><block wx:for="{{listArr}}" wx:for-item="item" wx:for-index="__i0__" wx:key="_id"><view class="row">{{'姓名：'+item.name+"-年龄"+item.age+''}}</view></block></view></view>
